@@ -34,6 +34,10 @@ export const initDatabase = async () => {
 
 export const insertAccount = async value => {
   try {
+    if (!value.name || value.balance == nul) {
+      throw new Error('Erro');
+    }
+
     const data = await readAccounts();
     const newData = {
       id: data.nextId++, //usar e depois incrementar
