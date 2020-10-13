@@ -1,0 +1,25 @@
+{
+  "nextId": 6,
+  "accounts": [
+    {
+      "id": 2,
+      "name": "Alan Vieceli",
+      "balance": 600.09
+    },
+    {
+      "id": 3,
+      "name": "Kevin Zamperetti",
+      "balance": 6700.09
+    },
+    {
+      "id": 4,
+      "name": "Andrézão",
+      "balance": 16700.09
+    },
+    {
+      "id": 5,
+      "name": "Vander Nunes",
+      "balance": 400.09
+    }
+  ]
+}

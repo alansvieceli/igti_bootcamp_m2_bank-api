@@ -1,0 +1,16 @@
+{
+  "name": "my-bank-api",
+  "version": "1.0.0",
+  "description": "API Bootcamp IGTI",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Alan Vieceli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  },
+  "type": "module"
+}
