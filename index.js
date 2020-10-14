@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import swaggerUI from 'swagger-ui-express';
 import { swaggerDocument } from './doc.js';
-import accountsRountes from './rountes/accounts.js';
+import accountsRountes from './routes/accounts.js';
 import { initDatabase } from './modules/repository.js';
 import { logger } from './modules/log.js';
 
