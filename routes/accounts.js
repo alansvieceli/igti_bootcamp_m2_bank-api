@@ -27,7 +27,7 @@ router.post('/', async (req, res, next) => {
 router.get('/', async (req, res, next) => {
   const data = await selectAccount();
 
-  if (data.error !== undefined) {
+  if (data.error  {
     next(data.error);
   } else {
     res.send(data);
@@ -37,7 +37,7 @@ router.get('/', async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
   const data = await selectAccountById(req.params.id);
 
-  if (data.error !== undefined) {
+  if (data.error) {
     next(data.error);
   } else {
     res.send(data);
